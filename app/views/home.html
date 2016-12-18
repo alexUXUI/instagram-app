@@ -1,0 +1,67 @@
+<div class="page-wrapper">
+  <div class="page-content">
+    <h1 class="heading -large">{{ home.title | ExampleFilter }}</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h2>Most Recent</h2>
+          <div class="most-recent-post">
+            <ul>
+              <li class='post' ng-repeat="image in images" data="">
+                <img src="{{ image }}" alt="">
+              </li>
+            </ul>
+            <!-- <div class="post"></div>
+            <div class="post-attributes"></div> -->
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <h2>Categories</h2>
+          <div class="categories">
+            <h3 class="label">Category label</h3>
+            <div class="category-1">
+            </div>
+            <h3 class="label">Category label</h3>
+            <div class="category-2">
+              <div class="category-post"></div>
+              <div class="category-post"></div>
+              <div class="category-post"></div>
+              <div class="category-post"></div>
+              <div class="category-post"></div>
+            </div>
+            <h3 class="label">Category label</h3>
+            <div class="category-3"></div>
+            <h3 class="label">Category label</h3>
+            <div class="category-4"></div>
+            <h3 class="label">Category label</h3>
+            <div class="category-4"></div>
+            <h3 class="label">Category label</h3>
+            <div class="category-4"></div>
+            <h3 class="label">Category label</h3>
+            <div class="category-4"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h2>About Me</h2>
+          <div class="most-recent-post">
+            Im a boss.
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <h2>Other stuff</h2>
+          <div class="categories">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class"col-sm-12 col-md-12">
+  <h6>All rights reserved. © Nick Saraceni 2016</h6>
+</footer>
+
+
+<!-- <div example-directive title="WOW!" click-message="You clicked me!">Directive is not loaded.</div> -->

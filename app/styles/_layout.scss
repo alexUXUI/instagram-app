@@ -1,0 +1,52 @@
+.page-wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0
+}
+
+.page-wrapper .page-content {
+  width: 100%;
+  background: white;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #424242;
+}
+
+.row {
+  width: 100%;
+  background-color: white;
+  margin: auto;
+}
+
+.col-md-6 {
+  height: 100%;
+  background-color: white;
+  margin: auto;
+  width: 49.75%;
+  margin: .125%;
+  align-items: center;
+  overflow-y: scroll;
+
+  &:first-of-type {
+    margin-right: .1%;
+    height: 500px;
+  }
+
+  &:last-of-type {
+    margin-right: .1%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .col-md-6 {
+    margin: auto;
+    width: 99.5%;
+    margin: .25%;
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
